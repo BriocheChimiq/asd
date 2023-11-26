@@ -1,0 +1,28 @@
+.root {
+  background-image: url(./christmasTree.svg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 800px;
+  background-color: rgba(63, 132, 73, 0.78)
+}
+
+.root__presentButton {
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px,250px));
+  margin-left: 40%;
+}
+.present {
+  width: 350px;
+  
+}
+.day{
+  position: absolute;
+  bottom: 7.5%;
+  font-size: 30px;
+  left: 60%;
+}
